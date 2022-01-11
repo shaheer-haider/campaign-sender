@@ -12,6 +12,8 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
+Note: "yarn start" will run production version in localhost.
+Deployment will be almost same as node js
 
 # generate static project
 $ yarn generate
