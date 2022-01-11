@@ -18,7 +18,7 @@
         placeholder="Enter Comma(,) seperated numbers (92XXXXXXXXXX) or drop an excel(xlsx) file on it's right."
         :disabled="processing"
       ></textarea>
-      <div class="ml-2 relative bg-indigo-500 rounded-md pd-2">
+      <div class="ml-2 relative bg-indigo-800 rounded-md pd-2">
         <p class="absolute text-lg text-white" style="left: 15px; top: 10px;">Select or Drop an Excel File</p>
         <input
           type="file"
@@ -135,13 +135,6 @@ export default {
           this.receivers = contacts.join()
           document.getElementById("excelFileSelector").value = null
         }
-        // reader.onloadend = function (event) {
-        //   alert("OK")
-        //   // var data = new Uint8Array(event.target.result);
-        //   // var workbook = read(data, { type: 'array' })
-        //   // console.log("REIJL")
-        // }
-        // const file = readFile(excelFile.files[0])
       }
     }
   }

@@ -10,7 +10,7 @@
     padding: 16px 18px;
 }
 .nuxt-link-exact-active{
-    background: #4338ca;
+    background: #3730a3;
     color: white;
 }
 </style>
